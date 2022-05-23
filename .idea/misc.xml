@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Turonbank/AndroidStudioProjects/ebayKotlin/app/src/main/res/drawable-v24/ic_search.xml" value="0.249" />
         <entry key="..\:/Users/Turonbank/AndroidStudioProjects/ebayKotlin/app/src/main/res/drawable-v24/ic_shopping.xml" value="0.2155" />
+        <entry key="..\:/Users/Turonbank/AndroidStudioProjects/ebayKotlin/app/src/main/res/drawable/border.xml" value="0.249" />
         <entry key="..\:/Users/Turonbank/AndroidStudioProjects/ebayKotlin/app/src/main/res/drawable/ic_shopping.xml" value="0.2155" />
         <entry key="..\:/Users/Turonbank/AndroidStudioProjects/ebayKotlin/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Turonbank/AndroidStudioProjects/ebayKotlin/app/src/main/res/layout/item_horizontal.xml" value="0.36666666666666664" />
