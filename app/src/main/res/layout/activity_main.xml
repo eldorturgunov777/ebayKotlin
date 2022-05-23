@@ -29,14 +29,14 @@
                     android:gravity="center_vertical">
 
                     <EditText
-                        android:layout_marginRight="10dp"
-                        android:padding="7dp"
-                        android:background="@drawable/border"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/border"
                         android:drawableLeft="@drawable/ic_search"
                         android:drawablePadding="5dp"
                         android:hint="Search for anything"
+                        android:padding="7dp"
                         android:textColorHint="@color/white" />
 
                 </LinearLayout>
@@ -45,8 +45,8 @@
 
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/radius"
                     android:layout_marginRight="10dp"
+                    android:background="@drawable/radius"
                     android:gravity="center_vertical">
 
                     <ImageView
@@ -66,6 +66,7 @@
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <LinearLayout
@@ -149,5 +150,16 @@
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/black"
+        app:itemIconSize="30dp"
+        app:itemIconTint="#8E8E93"
+        app:itemTextColor="#8E8E93"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/bottom_menu" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
